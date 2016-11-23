@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="WebDriverFireFox" preserve-order="true">
-  <parameter name="BROWSER" value="FF"  />
-  <classes>
-   <class name="firstTestSelenium.NewTest"/>
-  </classes>
- </test>
   <test name="WebDriverChrome" preserve-order="true">
   <parameter name="BROWSER" value="CH"></parameter>
-  <classes>
-   <class name="firstTestSelenium.NewTest"/>
+    <classes>
+     <class name="searchGoogle.searchTest"/>
+     <class name="searchGoogle.searchPage"/>
+     <class name="searchGoogle.BasePage"/>
   </classes>
  </test>
+
+ 
 </suite> <!-- Suite -->

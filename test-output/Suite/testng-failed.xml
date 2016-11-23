@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="BROWSER" value="IE"/>
-  <test name="WebDriverDemo2(failed)">
-    <parameter name="BROWSER" value="IE"/>
+  <parameter name="BROWSER" value="CH"/>
+  <test name="WebDriverChrome(failed)">
+    <parameter name="BROWSER" value="CH"/>
     <classes>
-      <class name="firstTestSelenium.NewTest">
+      <class name="searchGoogle.searchTest">
         <methods>
-          <include name="testBrowser"/>
-          <include name="testBrowser"/>
+          <include name="setUp"/>
           <include name="f"/>
         </methods>
-      </class> <!-- firstTestSelenium.NewTest -->
+      </class> <!-- searchGoogle.searchTest -->
     </classes>
-  </test> <!-- WebDriverDemo2(failed) -->
+  </test> <!-- WebDriverChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

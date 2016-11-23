@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [firstselenium by packages]">
+  <test name="searchTestJava(failed)">
+    <classes>
+      <class name="searchTestJava.searchTC">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- searchTestJava.searchTC -->
+    </classes>
+  </test> <!-- searchTestJava(failed) -->
+</suite> <!-- Failed suite [firstselenium by packages] -->

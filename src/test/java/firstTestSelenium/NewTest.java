@@ -35,7 +35,7 @@ public class NewTest {
 		  System.out.println("CH");
 	  }
 	 
-	 /*
+	 
 	else if(BROWSER.equalsIgnoreCase("IE")){
 
           //set path to IEdriver.exe You may need to download it from
@@ -45,12 +45,12 @@ public class NewTest {
    // 64 bits http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_x64_2.42.0.zip
 
           System.setProperty("webdriver.ie.driver","D:\\Users\\monica\\Downloads\\IEDriverServer_x64_2.42.0\\IEdriver.exe");
-
+     
           //create chrome instance
 
          driver = new InternetExplorerDriver();
 		System.out.println("IE");
-      }*/
+      }
 	  
 	  else{
 		  throw new Exception("Browser is not correct");

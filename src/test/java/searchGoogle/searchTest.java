@@ -4,21 +4,41 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import searchGoogle.searchPage;
-import searchGoogle.BasePage;
 
-public class searchTest extends BasePage{
+
+public class searchTest{
 	WebDriver driver;
 	searchPage objPage;
-
+	String exePath;
+	
 	@Parameters({"BROWSER"})
 	@BeforeTest
 	public void setUp(String BROWSER) {
-		BasePage bp = new BasePage();
-		bp.setUp(BROWSER);
+
+		 if (BROWSER.equalsIgnoreCase("CH"))
+		  {
+			  exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
+			  System.setProperty("webdriver.chrome.driver", exePath);
+			  driver = new ChromeDriver();
+			  System.out.println("CH");
+			  
+		  }
+		 
+		 else if(BROWSER.equalsIgnoreCase("FF"))
+			  {	exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
+				 //System.setProperty("webdriver.firefox.bin", exePath);
+				 System.setProperty("webdriver.firefox.marionette",exePath);        
+				 driver = new FirefoxDriver();
+				 System.out.println("FF");
+			  }
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("http://google.com");
+		driver.manage().window().maximize();
 		
 	}
 

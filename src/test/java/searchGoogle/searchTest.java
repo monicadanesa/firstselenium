@@ -22,7 +22,7 @@ public class searchTest{
 
 		 if (BROWSER.equalsIgnoreCase("CH"))
 		  {
-			  //exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
+			  exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
 			  //exePath ="/usr/bin/chromedriver";
 			  //System.setProperty("webdriver.chrome.driver", exePath);
 			  driver = new ChromeDriver();
@@ -32,7 +32,7 @@ public class searchTest{
 		 
 		 else if(BROWSER.equalsIgnoreCase("FF"))
 			  {	
-			 	//exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
+			 	exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
 			 	//exePath ="/usr/bin/chromedriver/geckodriver";
 				 //System.setProperty("webdriver.firefox.bin", exePath);
 				 //System.setProperty("webdriver.firefox.marionette",exePath);        

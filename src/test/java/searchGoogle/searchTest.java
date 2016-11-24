@@ -30,15 +30,7 @@ public class searchTest{
 			  
 		  }
 		 
-		 else if(BROWSER.equalsIgnoreCase("FF"))
-			  {	
-			 	exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
-			 	//exePath ="/usr/bin/chromedriver/geckodriver";
-				 //System.setProperty("webdriver.firefox.bin", exePath);
-				 System.setProperty("webdriver.firefox.marionette",exePath);        
-				 driver = new FirefoxDriver();
-				 System.out.println("FF");
-			  }
+	
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://google.com");
 		driver.manage().window().maximize();

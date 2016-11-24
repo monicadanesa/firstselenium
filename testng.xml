@@ -8,12 +8,5 @@
      <class name="searchGoogle.searchPage"/>
   </classes>
  </test>
-<test name="WebDriverFF" preserve-order="true">
-  <parameter name="BROWSER" value="FF"></parameter>
-    <classes>
-     <class name="searchGoogle.searchTest"/>
-     <class name="searchGoogle.searchPage"/>
-  </classes>
- </test>
  
 </suite> <!-- Suite -->

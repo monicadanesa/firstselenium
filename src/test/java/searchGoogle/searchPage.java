@@ -7,7 +7,7 @@ public class searchPage {
 	WebDriver driver;
 
 	By keyWordGoogle = By.xpath(".//*[@id='lst-ib']");
-	By button = By.xpath(".//*[@id='sblsbb']/button");
+	//By button = By.xpath(".//*[@id='sblsbb']/button");
 
 	public searchPage(WebDriver driver) {
 		this.driver = driver;
@@ -17,12 +17,12 @@ public class searchPage {
 		driver.findElement(keyWordGoogle).sendKeys(KeyWord);
 	}
 
-	public void clickButton() {
-		driver.findElement(button).click();
-	}
+	//public void clickButton() {
+		//driver.findElement(button).click();
+	//}
 
 	public void sendKeyWordGoogle(String KeyWord) {
 		this.setKeyWord(KeyWord);
-		this.clickButton();
+		//this.clickButton();
 	}
 }

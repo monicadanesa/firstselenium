@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8832" started-at="2016-11-23T10:47:56Z" finished-at="2016-11-23T10:48:05Z">
+  <suite name="Suite" duration-ms="12621" started-at="2016-11-24T15:42:42Z" finished-at="2016-11-24T15:42:54Z">
     <groups>
     </groups>
-    <test name="WebDriverChrome" duration-ms="4552" started-at="2016-11-23T10:47:56Z" finished-at="2016-11-23T10:48:00Z">
+    <test name="WebDriverChrome" duration-ms="8189" started-at="2016-11-24T15:42:42Z" finished-at="2016-11-24T15:42:50Z">
       <class name="searchGoogle.searchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="4390" started-at="2016-11-23T02:47:56Z" finished-at="2016-11-23T02:48:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@5c3bd550]" name="setUp" is-config="true" duration-ms="7957" started-at="2016-11-24T07:42:42Z" finished-at="2016-11-24T07:42:50Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@6a41eaa2]" name="f" duration-ms="148" started-at="2016-11-23T02:48:00Z" finished-at="2016-11-23T02:48:00Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@5c3bd550]" name="f" duration-ms="218" started-at="2016-11-24T07:42:50Z" finished-at="2016-11-24T07:42:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- searchGoogle.searchTest -->
     </test> <!-- WebDriverChrome -->
-    <test name="WebDriverFF" duration-ms="4265" started-at="2016-11-23T10:48:00Z" finished-at="2016-11-23T10:48:05Z">
+    <test name="WebDriverFF" duration-ms="4385" started-at="2016-11-24T15:42:50Z" finished-at="2016-11-24T15:42:54Z">
       <class name="searchGoogle.searchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@57fffcd7]" name="setUp" is-config="true" duration-ms="4057" started-at="2016-11-23T02:48:00Z" finished-at="2016-11-23T02:48:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@464bee09]" name="setUp" is-config="true" duration-ms="4101" started-at="2016-11-24T07:42:50Z" finished-at="2016-11-24T07:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@57fffcd7]" name="f" duration-ms="207" started-at="2016-11-23T02:48:05Z" finished-at="2016-11-23T02:48:05Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@464bee09]" name="f" duration-ms="282" started-at="2016-11-24T07:42:54Z" finished-at="2016-11-24T07:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->

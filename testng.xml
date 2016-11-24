@@ -6,7 +6,6 @@
     <classes>
      <class name="searchGoogle.searchTest"/>
      <class name="searchGoogle.searchPage"/>
-     <class name="searchGoogle.BasePage"/>
   </classes>
  </test>
 <test name="WebDriverFF" preserve-order="true">
@@ -14,7 +13,6 @@
     <classes>
      <class name="searchGoogle.searchTest"/>
      <class name="searchGoogle.searchPage"/>
-     <class name="searchGoogle.BasePage"/>
   </classes>
  </test>
  

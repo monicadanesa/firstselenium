@@ -24,7 +24,7 @@ public class searchTest{
 		  {
 			  exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
 			  //exePath ="/usr/bin/chromedriver";
-			  //System.setProperty("webdriver.chrome.driver", exePath);
+			  System.setProperty("webdriver.chrome.driver", exePath);
 			  driver = new ChromeDriver();
 			  System.out.println("CH");
 			  
@@ -35,7 +35,7 @@ public class searchTest{
 			 	exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
 			 	//exePath ="/usr/bin/chromedriver/geckodriver";
 				 //System.setProperty("webdriver.firefox.bin", exePath);
-				 //System.setProperty("webdriver.firefox.marionette",exePath);        
+				 System.setProperty("webdriver.firefox.marionette",exePath);        
 				 driver = new FirefoxDriver();
 				 System.out.println("FF");
 			  }

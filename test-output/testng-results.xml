@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29771" started-at="2016-11-24T16:04:09Z" finished-at="2016-11-24T16:04:39Z">
+  <suite name="Suite" duration-ms="4486" started-at="2016-11-23T10:42:48Z" finished-at="2016-11-23T10:42:53Z">
     <groups>
     </groups>
-    <test name="WebDriverChrome" duration-ms="15854" started-at="2016-11-24T16:04:09Z" finished-at="2016-11-24T16:04:25Z">
+    <test name="WebDriverChrome" duration-ms="4486" started-at="2016-11-23T10:42:48Z" finished-at="2016-11-23T10:42:53Z">
       <class name="searchGoogle.searchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@5c3bd550]" name="setUp" is-config="true" duration-ms="14547" started-at="2016-11-24T08:04:09Z" finished-at="2016-11-24T08:04:23Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="4462" started-at="2016-11-23T02:42:48Z" finished-at="2016-11-23T02:42:53Z">
           <params>
             <param index="0">
               <value>
@@ -18,30 +18,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@5c3bd550]" name="f" duration-ms="1290" started-at="2016-11-24T08:04:23Z" finished-at="2016-11-24T08:04:25Z">
+        <test-method status="FAIL" signature="f()[pri:0, instance:searchGoogle.searchTest@6a41eaa2]" name="f" duration-ms="7" started-at="2016-11-23T02:42:53Z" finished-at="2016-11-23T02:42:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at searchGoogle.searchPage.setKeyWord(searchPage.java:17)
+	at searchGoogle.searchPage.sendKeyWordGoogle(searchPage.java:25)
+	at searchGoogle.searchTest.f(searchTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- searchGoogle.searchTest -->
     </test> <!-- WebDriverChrome -->
-    <test name="WebDriverFF" duration-ms="13905" started-at="2016-11-24T16:04:25Z" finished-at="2016-11-24T16:04:39Z">
-      <class name="searchGoogle.searchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:searchGoogle.searchTest@464bee09]" name="setUp" is-config="true" duration-ms="13593" started-at="2016-11-24T08:04:25Z" finished-at="2016-11-24T08:04:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:searchGoogle.searchTest@464bee09]" name="f" duration-ms="307" started-at="2016-11-24T08:04:38Z" finished-at="2016-11-24T08:04:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- searchGoogle.searchTest -->
-    </test> <!-- WebDriverFF -->
   </suite> <!-- Suite -->
 </testng-results>

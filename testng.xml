@@ -6,7 +6,9 @@
     <classes>
      <class name="searchGoogle.searchTest"/>
      <class name="searchGoogle.searchPage"/>
+     <class name="searchGoogle.BasePage"/>
   </classes>
  </test>
+
  
 </suite> <!-- Suite -->

@@ -22,7 +22,7 @@ public class searchTest{
 
 		 if (BROWSER.equalsIgnoreCase("CH"))
 		  {
-			  exePath = "D:\\Users\\monica\\MonicaWorkSpace\\firstselenium\\chromedriver.exe";
+			  exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32_latest\\chromedriver.exe";
 			  //exePath ="/usr/bin/chromedriver";
 			  System.setProperty("webdriver.chrome.driver", exePath);
 			  driver = new ChromeDriver();

@@ -20,6 +20,7 @@ public class searchPage {
 	public void clickButton() {
 		driver.findElement(button).click();
 	}
+	
 
 	public void sendKeyWordGoogle(String KeyWord) {
 		this.setKeyWord(KeyWord);

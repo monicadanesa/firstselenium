@@ -21,7 +21,8 @@ public class NewTest {
   public void testBrowser(String BROWSER)throws Exception{
 	 
 	 if(BROWSER.equalsIgnoreCase("FF"))
-	  {	exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
+	  {	//exePath = "D:\\Users\\monica\\Downloads\\geckodriver-v0.11.1-win64\\geckodriver.exe";
+		 exePath ="/var/lib/jenkins/workspace/seleniumtest/geckodriver.exe";
 		 //System.setProperty("webdriver.firefox.bin", exePath);
 		 System.setProperty("webdriver.firefox.marionette",exePath);        
 		 driver = new FirefoxDriver();
@@ -29,7 +30,8 @@ public class NewTest {
 	  }
 	  else if (BROWSER.equalsIgnoreCase("CH"))
 	  {
-		  exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
+		  //exePath = "D:\\Users\\monica\\Downloads\\chromedriver_win32\\chromedriver.exe";
+		  exePath ="/var/lib/jenkins/workspace/seleniumtest/chromedriver.exe";
 		  setDriver = System.setProperty("webdriver.chrome.driver", exePath);
 		  driver = new ChromeDriver();
 		  System.out.println("CH");

@@ -9,6 +9,13 @@
      <class name="searchGoogle.BasePage"/>
   </classes>
  </test>
-
+<test name="WebDriverFF" preserve-order="true">
+  <parameter name="BROWSER" value="FF"></parameter>
+    <classes>
+     <class name="searchGoogle.searchTest"/>
+     <class name="searchGoogle.searchPage"/>
+     <class name="searchGoogle.BasePage"/>
+  </classes>
+ </test>
  
 </suite> <!-- Suite -->

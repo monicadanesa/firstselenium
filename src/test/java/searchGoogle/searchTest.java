@@ -40,6 +40,6 @@ public class searchTest{
 	@Test
 	public void f() {
 		objPage = new searchPage(driver);
-		objPage.sendKeyWordGoogle("apple");
+		objPage.sendKeyWordGoogle("applee");
 	}
 }

@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="BROWSER" value="FF"/>
-  <test name="WebDriverFF(failed)">
-    <parameter name="BROWSER" value="FF"/>
+  <test name="WebDriverChrome(failed)">
+    <parameter name="BROWSER" value="CH"/>
     <classes>
       <class name="searchGoogle.searchTest">
         <methods>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- searchGoogle.searchTest -->
     </classes>
-  </test> <!-- WebDriverFF(failed) -->
+  </test> <!-- WebDriverChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
